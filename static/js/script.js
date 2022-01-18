@@ -13,6 +13,10 @@ if (!String.prototype.format) {
 
 
 jQuery(document).ready(function($) {
+    $("*").removeAttr('contenteditable');
+
+    return;
+    
     $(".left-label").attr('contenteditable', 'true');
     $(".label-value").attr('contenteditable', 'true');
     $(".info-title").attr('contenteditable', 'true');
@@ -85,6 +89,6 @@ jQuery(document).ready(function($) {
     $("progress").click(function(event) {
         $(this).attr("value", event.offsetX/$(this).width()/0.8 * $(this).attr("max"));
     });
-    $("*").removeAttr('contenteditable');
+    
 
 });
