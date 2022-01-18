@@ -16,7 +16,7 @@ jQuery(document).ready(function($) {
     $("*").removeAttr('contenteditable');
 
     return;
-    
+
     $(".left-label").attr('contenteditable', 'true');
     $(".label-value").attr('contenteditable', 'true');
     $(".info-title").attr('contenteditable', 'true');
