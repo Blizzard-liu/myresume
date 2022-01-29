@@ -115,7 +115,7 @@ hr {
 
 .remodal-img button:hover{
     float: right;
-    background: #607d8b;
+    /* background: #607d8b; */
 
 }
 
@@ -230,11 +230,11 @@ progress::-moz-progress-value {
 }
 
 .info-header:hover {
-    background-color: #d4dee4;
+    /* background-color: #d4dee4; */
 }
 
 .info-unit ul li:hover {
-    background-color: #d4dee4;
+    /* background-color: #d4dee4; */
 }
 
 .info-header .unit-remove {
